@@ -1,0 +1,24 @@
+/* font */
+
+@font-face{
+    font-family: 'sora';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/Sora-Light.ttf') ;
+}
+@font-face{
+    font-family: 'sora_blod';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/Sora-Bold.ttf') ;
+}
+/* start project */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'sora';
+}
