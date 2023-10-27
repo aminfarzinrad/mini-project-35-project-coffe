@@ -139,3 +139,11 @@ img{
     color: #000;
     box-shadow: 10px 10px 48px #01381b;    
 }
+/* back ground image */
+.image_background{
+    width: 600px;
+    position: absolute;
+    right: 0px;
+    bottom: -11px;
+}
+.img_back{}
