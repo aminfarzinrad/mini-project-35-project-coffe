@@ -225,3 +225,27 @@ img{
     border-radius: 7px;
     font-weight: 600;      
 }
+/* media */ 
+@media screen and (max-width:999px) {
+    .content_header {
+        flex-direction: column-reverse;
+    }
+    .content_header_right{
+        width: 90%;
+        top: 0;
+        margin: 6rem 0;
+    }
+    .content_header_left {
+        max-width: 359px;
+    }
+    .form {
+        flex-direction: column;
+    }
+    .input_form{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .iocn::after{
+        right: 26px;
+    }
+}
